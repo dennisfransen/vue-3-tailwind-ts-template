@@ -1,8 +1,7 @@
 <script setup>
-import { useAppStore } from '@/stores/app'
 import { storeToRefs } from 'pinia'
 
-const store = useAppStore()
+const store = useApp()
 
 const { toggleMenu, closeMenu } = store
 const { isMenuOpen } = storeToRefs(store)

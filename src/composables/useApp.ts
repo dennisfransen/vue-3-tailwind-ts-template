@@ -1,7 +1,7 @@
 import { ref } from 'vue'
 import { defineStore } from 'pinia'
 
-export const useAppStore = defineStore('app', () => {
+export const useApp = defineStore('app', () => {
 	const isMenuOpen = ref(false)
 
 	function toggleMenu() {

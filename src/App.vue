@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import AppWebHeader from '@/components/AppWebHeader.vue'
-import AppMobileHeader from '@/components/AppMobileHeader.vue'
-</script>
-
 <template>
 	<AppWebHeader />
 	<AppMobileHeader />
